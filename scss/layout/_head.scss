@@ -1,0 +1,9 @@
+.layout-head {
+  background: darken($background,7.5%);
+  box-shadow: 0px 3px 7px rgba(black, 0.24);
+
+  .wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+} 

@@ -1,0 +1,35 @@
+.carousel{
+  background: lighten($background, 12.5%);
+  margin-top: -6px;
+  .wrap {
+      display: flex;
+  }
+
+  .item {
+    flex: 1;
+    margin: 0 15px;
+    &:first-child {
+      margin-left: 0;
+      padding-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+      padding-right: 0;
+    }
+      .item-head {}
+      .item-content {
+        font-size: 85%;
+        color: #fff;
+
+        img {
+          border: 5px solid lighten($background, 2.5%);
+        }
+      }
+      .item-foot {
+        text-align: right;
+        border-top: 1px solid lighten($background, 2.5%);
+        margin-top: 6px;
+        padding-top: 5px;
+      }
+  }
+}

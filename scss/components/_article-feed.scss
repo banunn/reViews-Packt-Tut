@@ -1,0 +1,36 @@
+.article-feed {
+
+  .feed {
+      margin:0;
+      padding: 0;
+      list-style: none;
+  }
+    .item {
+      padding: 10px;
+      border-left: 1px solid darken($background, 10%);
+      display: flex;
+      font-size: 85%;
+      color: #fff;
+      &:nth-child(odd){
+        background: darken($background, 10%);
+      }
+      .feat-img{
+        min-width: 75px;
+      }
+
+      .detail {
+        padding-left: 10px;
+
+        h2 {
+          margin: 0 0 .5em 0;
+        }
+      }
+
+      .item-foot {
+        text-align: right;
+        border-top: 1px solid rgba(white, .15);
+        margin-top: 5px;
+        padding-top: 5px;
+      }
+    }
+}

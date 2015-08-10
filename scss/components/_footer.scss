@@ -1,0 +1,24 @@
+.page-foot {}
+
+.sub-foot {
+  background: darken($background, 15%);
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+  font-size: 85%;
+  p {
+    margin:0;
+  }
+
+  a {
+    color: #fff;
+    margin-right: 5px;
+    &:last-of-type{
+      margin-right: 0;
+    }
+    &:hover {
+      color: $accent;
+    }
+  }
+}

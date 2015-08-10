@@ -1,0 +1,10 @@
+@import 'bourbon';
+@import 'neat';
+
+
+.one-third {
+  @include span-columns(4);
+}
+.two-thirds{
+  @include span-columns(8);
+}

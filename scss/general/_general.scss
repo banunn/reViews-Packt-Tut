@@ -1,0 +1,19 @@
+*{
+  box-sizing: border-box;
+}
+html {}
+
+body {
+  background: $background;
+}
+
+.wrap {
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
