@@ -10,6 +10,12 @@
 @import 'general/_general.scss';
 @import 'general/_type.scss';
 
+// Vendor Styles
+
+@import 'vendors/slick.scss';
+@import 'vendors/slick-theme.scss';
+
+
 // Components
 @import 'components/nav/_brand.scss';
 @import 'components/nav/_top-navigation.scss';

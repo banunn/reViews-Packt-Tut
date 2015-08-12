@@ -1,20 +1,31 @@
 .carousel{
   background: lighten($background, 12.5%);
   margin-top: -6px;
+  padding: 0 0 15px 0;
   .wrap {
       display: flex;
+      @media(max-width: $phone){
+        flex-direction: column;
+      }
   }
 
   .item {
     flex: 1;
     margin: 0 15px;
+
     &:first-child {
       margin-left: 0;
       padding-left: 0;
+      @media(max-width: $phone){
+        margin: 0 10px;
+      }
     }
     &:last-child {
       margin-right: 0;
       padding-right: 0;
+      @media(max-width: $phone){
+        margin: 0 10px;
+      }
     }
       .item-head {}
       .item-content {

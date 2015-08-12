@@ -4,7 +4,15 @@
 
 .one-third {
   @include span-columns(4);
+  @media(max-width: $phone){
+    @include span-columns(12);
+    padding: 0 10px;
+  }
 }
 .two-thirds{
   @include span-columns(8);
+  @media(max-width: $phone){
+    @include span-columns(12);
+    padding: 0 10px;
+  }
 }
